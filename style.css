@@ -1,0 +1,354 @@
+*, *::before, *::after{
+  font-family: 'Amiri', serif;
+  padding: 0;
+  margin: 0;
+}
+a{
+  color: transparent;
+}
+a:hover{
+  color:rgb(11, 124, 169);
+}
+ body{
+  background-color:snow;
+  text-align: center;
+  justify-content: center;
+  padding-top: 70px;
+  padding-left: 170px;
+  margin: 12px;
+
+ }
+ h1{
+  font-size: 33px;
+  text-align: center;
+  justify-content: center;
+  color: steelblue;
+  text-shadow:1px 1px rgb(107, 89, 89);
+ }
+ .ball {
+  animation: float 3.5s ease-in-out infinite;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position:relative;
+  text-align: justify;
+  justify-content:first baseline;
+   padding: 50px;
+  background: radial-gradient(
+    circle at 75% 30%,
+    white 5px,
+    aqua 8%,
+    darkblue 60%,
+    aqua 100%
+  );
+  box-shadow: inset 0 0 20px #fff, inset 10px 0 46px #eaf5fc,
+    inset 88px 0px 60px #c2d8fe, inset -20px -60px 100px #fde9ea,
+    inset 0 50px 140px #fde9ea, 0 0 90px #fff;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-80px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes expand {
+  0%,
+  100% {
+    transform: scale(0.5);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .ball {
+    animation: float 4.5s ease-in-out infinite;
+    height: 120px;
+    width: 120px;
+
+    background: radial-gradient(
+      circle at 65% 35%,
+      white 5px,
+      aqua 15%,
+      darkblue 50%,
+      aqua 100%
+    );
+    box-shadow: inset 0 -20px 30px #fff, inset 40px 0 46px #eaf5fc,
+      inset 58px 0px 60px #c2d8fe, inset -8px -30px 100px #fde9ea,
+      inset 0 20px 110px #fde9ea, 0 0 90px #fff;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-50px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+}
+
+.atlantic-txt{
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:140%;
+left:55%;
+color: transparent;
+}
+.atlantic-txt:hover{
+  font-size: small;
+  font-style: italic;
+  color:rgb(11, 124, 169);
+  text-shadow:0.1px 0.1px rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:140%;
+left:55%;
+}
+.atlantic2-txt{
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:110%;
+left:50%;
+color: transparent;
+}
+.atlantic2-txt:hover{
+  font-size: small;
+  font-style: italic;
+  color:rgb(11, 124, 169);
+  text-shadow:0.1px 0.1px rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:110%;
+left:50%;
+}
+.south-txt{
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:160%;
+left:70%;
+color: transparent;
+}
+.south-txt:hover{
+  font-size: small;
+  font-style: italic;
+  color:rgb(11, 124, 169);
+  text-shadow:0.1px 0.1px rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:160%;
+left:70%;
+}
+.indian-txt{
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:135%;
+left:70%;
+color: transparent;
+}
+.indian-txt:hover{
+  font-size: small;
+  font-style: italic;
+  color:rgb(11, 124, 169);
+  text-shadow:0.1px 0.1px rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  top:135%;
+  left:70%;
+}
+.pacific-txt{
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+top:120%;
+left:30%;
+color: transparent;
+}
+.pacific-txt:hover{
+  font-size: small;
+  font-style: italic;
+  color:rgb(11, 124, 169);
+  text-shadow:0.1px 0.1px rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  top:120%;
+  left:30%;
+}
+.pacific2-txt{
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  top:115%;
+  left:80%;
+color: transparent;
+}
+.pacific2-txt:hover{
+  font-size: small;
+  font-style: italic;
+  color:rgb(11, 124, 169);
+  text-shadow:0.1px 0.1px rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  top:115%;
+  left:80%;
+}
+.arctic-txt{
+  font-size: small;
+  font-style: italic;
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  top:80%;
+  left:60%;
+color: transparent;
+}
+.arctic-txt:hover{
+  font-size: small;
+  font-style: italic;
+  color:rgb(11, 124, 169);
+  text-shadow:0.1px 0.1px rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 0.2px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  top:80%;
+  left:60%;
+}
+.map .marker1{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  top:140%;
+left:55%;
+background-color: #fff;
+animation: highlight 1.5s linear infinite;
+}
+.map .marker2{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  top:160%;
+left:70%;
+background-color: #fff;
+animation: highlight 1.5s linear infinite;
+}
+.map .marker3{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  top:135%;
+left:70%;
+background-color: #fff;
+animation: highlight 1.5s linear infinite;
+}
+.map .marker4{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  top:110%;
+  left:50%;
+background-color: #fff;
+animation: highlight 1.5s linear infinite;
+}
+.map .marker5{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  top:120%;
+  left:30%;
+background-color: #fff;
+animation: highlight 1.5s linear infinite;
+}
+.map .marker6{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  top:115%;
+  left:85%;
+background-color: #fff;
+animation: highlight 1.5s linear infinite;
+}
+.map .marker7{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  top:80%;
+  left:60%;
+background-color: #fff;
+animation: highlight 1.5s linear infinite;
+}
+@keyframes highlight{
+  100%{
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
